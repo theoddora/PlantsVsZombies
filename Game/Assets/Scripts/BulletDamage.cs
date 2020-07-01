@@ -8,7 +8,7 @@ public class BulletDamage : MonoBehaviour
         // Zombie damage
         if (co.tag == "Zombie") {
             // Deal Damage, destroy Bullet
-            co.GetComponent<Health>().doDamage(1);
+            co.GetComponent<HealthGlobal>().doDamage(1);
             Destroy(gameObject);
         }
     }
