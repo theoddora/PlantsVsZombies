@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8058332505741236373}
   - component: {fileID: 8058332505741236372}
   - component: {fileID: 7008950101239019900}
+  - component: {fileID: 2350502513027732305}
   m_Layer: 0
   m_Name: PeashooterPrefab
   m_TagString: Plant
@@ -158,3 +159,17 @@ MonoBehaviour:
   bulletPrefab: {fileID: 4662370351466632300, guid: 1d6194a900daf406cb4b6fb21604b98b,
     type: 3}
   interval: 0.5
+--- !u!114 &2350502513027732305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8058332505741236368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 953bece6416ed485bbe2067dc0267466, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  previewImage: {fileID: 2800000, guid: d953700a6ac1a46a3a7d2429657d493f, type: 3}
+  price: 150
