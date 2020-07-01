@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class HealthGlobal : MonoBehaviour
 {
-    // Current Health
+    // Current Health of Object
     [SerializeField]
     int cur = 5;
 

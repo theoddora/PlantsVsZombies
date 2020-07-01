@@ -4,7 +4,7 @@ using UnityEngine;
 public class MouseCollect : MonoBehaviour
 {
     // Global score
-    public static int score = 100;
+    public static int score = 500;
 
     void OnMouseDown() {
         // Increase Score
